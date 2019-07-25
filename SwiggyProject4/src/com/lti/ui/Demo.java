@@ -1,5 +1,6 @@
 package com.lti.ui;
 import com.lti.bean.*;
+import com.lti.beanny.muniyar_subham;
 public class Demo {
 
 	public static void main(String[] args) {
@@ -25,6 +26,11 @@ public class Demo {
 		
 		ob1=null;
 		System.gc();
+		
+		muniyar_subham aks=new muniyar_subham();
+		aks.setJumale(10);
+		int si=aks.getJumale();
+		System.out.println(si);
 		//String res=ob1.display();
 	//	System.out.println(res);
 	
