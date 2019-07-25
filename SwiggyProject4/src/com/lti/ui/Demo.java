@@ -26,6 +26,9 @@ public class Demo {
 		
 		ob1=null;
 		System.gc();
+		System.out.println("THIS IS ANOTHER COMMIT");
+		System.out.println("Raininininininininin");
+		
 		
 		muniyar_subham aks=new muniyar_subham();
 		aks.setJumale(10);
